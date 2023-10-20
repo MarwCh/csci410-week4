@@ -18,7 +18,16 @@ class MyApp extends StatelessWidget {
            SizedBox(height: 16.0,),
            MyTextWidget(text:'Text 1'),
            SizedBox(height: 16.0,),
-           MyTextWidget(text: 'Text 2')
+           MyTextWidget(text: 'Text 2'),
+           SizedBox(height: 16.0,),
+           Row(
+             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+             children: <Widget>[
+               MyTextWidget(text: 'Text 3'),
+               MyTextWidget(text: 'Text 4'),
+               MyTextWidget(text: 'Text 5')
+             ],
+           )
          ],
        )
       )
