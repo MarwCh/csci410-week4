@@ -1,3 +1,9 @@
+This is a simple hello world application. It demonstrates the use of:
+1- MaterialApp widget
+2- Scaffold widget
+3- Center widget
+4- Text widget
+
 # week4
 
 A new Flutter project.
