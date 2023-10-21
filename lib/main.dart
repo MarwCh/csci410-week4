@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Week 4',
       home: Scaffold(
         appBar: AppBar(
           title: Text('Home Page'),
